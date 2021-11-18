@@ -1,0 +1,67 @@
+* {
+  color: white;
+}
+
+body {
+  background-image: url('https://i.pinimg.com/originals/20/77/66/20776607b5924d1607a6a5dc33dc6074.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  font-family: Cochin, serif;
+}
+
+/* this is a css comment */
+
+/*
+h1, a, p {
+  color: white;
+}
+*/
+
+main {
+  width: 75%;
+  margin: 50px auto 0 auto;
+  line-height: 35px;
+}
+
+h1 {
+  word-spacing: 0.5em;
+}
+
+h1:first-letter {
+  font-size: 2em;
+}
+
+img {
+  width: 40%;
+  margin: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  margin: 20px;
+  font-style: italic;
+}
+
+nav a:hover {
+  background-color: lightblue;
+  color: orange;
+}
+
+nav a:active {
+  background-color: green;
+  color: yellow;
+}
+
+a[target="_blank"] {
+  background-color: white;
+  color: blue;
+}
+
+ol {
+  list-style-position: inside;
+}
+
+#video-section {
+  color: yellow;
+}
